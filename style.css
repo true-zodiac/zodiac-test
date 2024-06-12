@@ -1,0 +1,106 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 32px;
+    padding: 20px 40px;
+    color: #2c3e50; /* Темний сіро-блакитний */
+    margin-bottom: 40px;
+    font-weight: bold;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.description{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 2%;
+}
+
+#results {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 2%;
+}
+
+#sign1 {
+    margin-right: 70px;
+}
+
+h1, h2 {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+    color: #2c3e50; /* Темний сіро-блакитний */
+    font-size: 32px;
+}
+
+h1 {
+    margin-bottom: 2%;
+}
+
+h2 {
+    margin-bottom: 20px;
+}
+
+p {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding: 20px 40px;
+    width: 60%;
+    font-size: 18px;
+    text-align: justify;
+    color: #2c3e50; /* Темний сіро-блакитний */
+}
+
+select {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: larger;
+    padding: 7px;
+    border: 1px solid #2c3e50; /* Темний сіро-блакитний */
+    color: #2c3e50; /* Темний сіро-блакитний */
+}
+
+input {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-size: larger;
+    padding: 7px;
+    color: white;
+    border: 1px solid #2c3e50; /* Темний сіро-блакитний */
+    background-color: #2c3e50; /* Темний сіро-блакитний */
+    transition: .3s;
+}
+
+input:hover {
+    background-color: white;
+    color: #2c3e50; /* Темний сіро-блакитний */
+}
+
+@media only screen and (max-width: 767px) and (orientation: portrait) {
+    /* Ваші стилі для телефонів у портретній орієнтації */
+    header {
+        font-size: 24px;
+    }
+
+    p {
+        font-size: 16px;
+        width: 90%;
+    }
+
+    select, input {
+        font-size: 16px;
+    }
+}
